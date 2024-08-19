@@ -12,4 +12,4 @@ The simplicity of this project is intentional. By keeping it basic, you can easi
 
 ## My Learning Approach
 
-This is how I learn—by experimenting and observing the effects of small changes. I hope this project helps you learn in the same way. Dive in, play around, and see how simple changes can make a big difference in your understanding of HTML and CSS.
+This is how I learn—by experimenting and observing the effects of small changes. I hope this project helps you learn in the same way. Dive in, play around, and see how simple changes can make a big difference in your understanding.

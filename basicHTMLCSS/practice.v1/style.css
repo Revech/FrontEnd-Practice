@@ -1,0 +1,34 @@
+input{
+    width: 400px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 30px;
+
+}
+img{
+    width: 200px;
+    display: block;
+
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main{
+    
+    margin-top: 40px;
+   
+}
+.par{
+    background-color: lightgray;
+    display: block;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 70px;
+    border : 20px solid red;
+    
+}

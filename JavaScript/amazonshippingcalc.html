@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Amazon shipping calculator</title>
+        <style>
+            .css-input{
+                padding: 8px;
+                border-radius: 10px;
+                border: solid gray 2px;
+            }
+            .css-cal{
+                color: white;
+                background-color: green;
+                padding: 8px;
+                border-radius: 10px;
+                border: none;
+            }
+            .wrapper p{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .wrapper{
+                background-color: aqua;
+                display: inline-block;
+                padding: 20px;
+                border: solid black 2px;
+                border-radius: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <p> Amazon shippping calculator</p>
+            <p>Order under 40$ = +10$ shipping</p>
+            <p> Order above 40$ = Free shipping</p>
+            <input class="input css-input" onkeydown="
+            handleCost(event)
+            " type="text" placeholder="enter the amount">
+            <button class="css-cal" onclick="
+            check();
+            "> Calculate</button>
+            <p class="totalcost"></p>
+        </div>
+            <script>
+
+                function handleCost(event)
+                {
+                if(event.key === 'Enter')
+                    {
+                    check();
+                    }
+                }
+                function check()
+                {
+                   const element = document.querySelector('.input');
+                  let cost= Number(element.value);
+                  if(cost < 40)
+                  {
+                    cost += 10;
+                  }
+                  document.querySelector('.totalcost').innerHTML = `${cost}$`;
+                }
+            </script>
+        
+    </body>
+</html>

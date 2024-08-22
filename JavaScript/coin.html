@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            coin game
+        </title>
+    </head>
+    <body>
+        <button onclick="gen()">generate</button>
+        <button onclick="guess('tail') 
+        alert(`the computer move is   ${comp}.
+        wins : ${coin.wins} , losess : ${coin.lose}`);
+        
+        ">tail</button>
+        <button onclick="guess('head')
+
+         alert(`the computer move is   ${comp}.
+         wins : ${coin.wins} , losess : ${coin.lose}`);
+        
+        ">head</button>
+        <button onclick="localStorage.removeItem(coin); coin.wins = 0 ; coin.lose = 0;">clear</button>
+
+
+        <script>
+            let coin = JSON.parse(localStorage.getItem('coin')) || 
+            {
+                wins:0,
+                lose : 0
+            };
+                let comp;
+            function gen()
+            {
+                let luck = Math.random();
+                if (luck > 1/2)
+            {
+                comp = 'head';
+            }
+            else 
+            {
+                comp = 'tail';
+            }
+            }
+            function guess(parameter)
+            {
+                if(parameter == comp)
+            {
+                coin.wins += 1;
+            }
+            else {
+                coin.lose +=1;
+            }
+            localStorage.setItem('coin',JSON.stringify(coin));
+            }
+
+
+        </script>
+
+    </body>
+</html>

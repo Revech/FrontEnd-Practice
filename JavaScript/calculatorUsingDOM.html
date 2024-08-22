@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            calculator project
+        </title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+
+        <p class = "p"></p>
+        <div class="class1">
+            <button    onclick="calculator('1')" >1</button>
+            <button    onclick="calculator('2')">2</button>
+            <button    onclick="calculator('3')">3</button>
+            <button    onclick="calculator('+')">+</button>
+        </div>
+        <div class="class2">
+            <button    onclick="calculator('4')">4</button>
+            <button    onclick="calculator('5')">5</button>
+            <button    onclick="calculator('6')">6</button>
+            <button    onclick="calculator('-')">-</button>
+        </div>
+        <div class="class3">
+            <button    onclick="calculator('7')">7</button>
+            <button    onclick="calculator('8')">8</button>
+            <button    onclick="calculator('9')">9</button>
+            <button    onclick="calculator('*')">*</button>
+        </div>
+        <div class="class4">
+            <button   onclick="calculator('0')">0</button>
+            <button    onclick="calculator('.')">.</button>
+            <button   onclick="
+            let result =eval( localStorage.getItem('cal'));
+            //console.log(result);
+            document.querySelector('p').innerHTML = result;
+            
+            ">=</button>
+            <button   onclick="calculator('/')">/</button>
+        </div>
+        <button    onclick="localStorage.removeItem('cal'); cal ='';  document.querySelector('p').innerHTML= ''; ">clear</button>
+           
+        <script>
+            let cal = localStorage.getItem('cal') || '';
+            function calculator(parameter)
+            {
+                cal += parameter;
+               // console.log(cal);
+               click()
+                localStorage.setItem('cal',cal);
+
+            }
+
+            function click()
+            {
+                
+                document.querySelector('p').innerHTML =cal;
+
+            }
+        </script>
+    </body>
+</html>

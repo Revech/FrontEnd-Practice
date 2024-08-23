@@ -1,0 +1,32 @@
+body{
+    font-family: Arial;
+}
+.todogrid{
+    display: grid;
+    grid-template-columns: 200px 200px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 10px;
+    align-items: center;
+}
+.button{
+    background-color: rgb(28, 197, 28);
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.dbutton{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.input,
+.dateInput
+{
+    border: solid rgb(26, 25, 25) 1px;
+    border-radius: 5px;
+    padding: 5px;
+}

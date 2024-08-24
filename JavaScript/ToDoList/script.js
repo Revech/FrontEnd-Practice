@@ -31,7 +31,10 @@ function render()
 
 document.querySelector('.div').innerHTML = todoHtml;
 }
+Using ForEach as an alternative with arrow function
 
+ todoList.forEach(( todoObject, index) =>
+ {};
 );*/
 
     for (let i = 0; i < todoList.length; i ++)

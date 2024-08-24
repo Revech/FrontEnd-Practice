@@ -55,6 +55,18 @@ Using ForEach as an alternative with arrow function
             
         }
         document.querySelector('.div').innerHTML = todoHtml;
+        /*  
+      if we want to replace onClick 
+      
+      document.querySelectorAll('.dbutton').forEach(
+            (deleteB, index)=> {
+                deleteB.addEventListener('click',() => 
+                {
+                    todoList.splice(i,1);
+                    render();  
+                } );
+
+});*/
 }
 
  

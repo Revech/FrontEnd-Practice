@@ -92,8 +92,20 @@ let score = JSON.parse(localStorage.getItem('score')) || {
   let stop = false ;
   let intervalId;
    
-  function autoPlay()
+  function autoPlay() // this function syntax enables hoisting if we write it in this way const autoPlay = () => {}; no hoisting 
   {
+       /*Using arrow Function 
+    
+      intervalId = setInterval(() =>
+        {
+            const playerMove = pickComputerMove();
+            playGame(playerMove);
+        }
+    , 1000);
+    
+    
+    
+    */
     if(!stop)
     {
        intervalId = setInterval(function()

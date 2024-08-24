@@ -19,7 +19,20 @@ let score = JSON.parse(localStorage.getItem('score')) || {
   Using addeventlistener
   
   document.querySelector('.button').addEventListener('click', () => {playGame('rock')});*/
-  
+    document.body.addEventListener('keydown',(event) =>{
+if(event.key === 'r')
+{
+  playGame('rock');
+}
+else if(event.key === 's')
+  {
+    playGame('scissors');
+  }
+  else if(event.key === 'p')
+    {
+      playGame('paper');
+    }
+  } );
   function playGame(playerMove) {
     const computerMove = pickComputerMove();
   

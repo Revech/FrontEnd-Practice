@@ -1,0 +1,50 @@
+
+.profile-image{
+    width: 200px;
+    height: 130px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  vertical-align: top;
+  margin-right: 15px;
+    
+  
+}
+.parent{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  column-gap: 20px;
+;
+}
+.grid{
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    vertical-align: top;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+
+.add-button{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(88, 88, 202);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.mutual-fr{
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    align-items: center;
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+.mutual-friend-picture{
+    height: 28px;
+    width: 28px;
+    object-fit: cover;
+    border-radius: 14px;
+    vertical-align: middle;
+    margin-right: 4px;
+}

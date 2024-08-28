@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>practice</title>
+    </header>
+    <body>
+        <button class="b" onclick="
+        document.querySelector('.b').innerHTML = 'loading';
+          setTimeout(()=>
+            
+            {document.querySelector('.b').innerHTML = 'finished';} 
+            ,1000);  
+            update();
+            
+        // updateButton();
+            ">start</button>
+        <script>
+     function update()
+     {
+        setTimeout(() =>
+    {
+        document.querySelector('.b').innerHTML = 'start'; 
+    }, 2000);
+     };
+
+    /* function updateButton() {
+                setTimeout(() => {
+                    document.querySelector('.b').innerHTML = 'Finished!';
+                }, 1000);}*/
+
+
+   
+        setInterval(() =>
+       { if (document.title === 'practice')
+        {
+          document.title = '(2) New messages';
+        } 
+        else 
+        {
+          document.title = 'practice';
+        }
+      }, 1000);
+   
+        </script>
+    </body>
+</html>

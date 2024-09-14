@@ -14,12 +14,13 @@ This project is a front-end e-commerce website built using **HTML**, **CSS**, an
    - Each module is responsible for a specific task, such as handling products, cart functionality, and more.
 
 ### 3. **External Libraries**
-   - External JavaScript libraries have been used to streamline development and enhance functionality.
+   - External JavaScript libraries have been used : Dayjs
    - Examples of these libraries are provided within the project.
 
 ### 4. **Object-Oriented Programming (OOP)**
-   - **Classes** and **inheritance** are used to create objects for products, user management, and shopping cart functionalities.
-   - Encapsulation is used to hide the internal workings of certain functionalities, keeping the code cleaner and easier to maintain.
+   - **Classes** and **inheritance** are used to create objects for products and shopping cart functionalities.
+   - Generate objects through OOp manually and automatically.
+   - You can see the different approaches. 
 
 ### 5. **Backend Integration and Data Handling**
    - The website demonstrates data fetching from a backend using **Promises** and **Async/Await**.

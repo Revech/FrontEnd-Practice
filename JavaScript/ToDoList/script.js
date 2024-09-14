@@ -86,3 +86,22 @@ function addTodo()
     render();
   
 }
+
+
+/*
+NOTE : another way 
+-------------
+HTML ::
+id="reve" 
+
+CSS ::
+#reve {
+  margin-top: 20px;
+  text-align: left;
+}
+
+JS::
+.getElementById('getWeatherBtn')
+
+
+*/

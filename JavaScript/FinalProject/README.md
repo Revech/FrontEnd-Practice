@@ -38,8 +38,7 @@ This project is a front-end e-commerce website built using **HTML**, **CSS**, an
    - Each approach is implemented in different sections of the project to show the differences and advantages of each.
 
 ### 8. **Testing and Testing Frameworks**
-   - Basic testing has been set up to ensure the functionality of key components.
-   - Testing frameworks and tools are utilized to automate the testing process.
+   - Testing framework used : Jasmine
    - Test cases cover essential parts like data fetching, product manipulation, and cart functionalities.
 
 ### 9. **Encapsulation**

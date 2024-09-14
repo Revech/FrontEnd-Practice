@@ -45,4 +45,4 @@ This project is a front-end e-commerce website built using **HTML**, **CSS**, an
 ### 9. **Encapsulation**
    - examples of encapsulation is provided in the comment section
 
-### 10. **Enjoy the Trip :) **
+### 10. Enjoy the Trip :) 

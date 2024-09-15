@@ -17,4 +17,3 @@ This project provides a user-friendly interface to display weather forecasts usi
 
 - **Current Weather:** Displays the current weather conditions for a specified location.
 - **Forecast:** Provides a short-term weather forecast.
-- **Responsive Design:** Ensures usability across various devices and screen sizes.

@@ -1,6 +1,6 @@
 # Repository Description:
 
-This repository contains my personal practice projects for web development, featuring demo websites built using HTML, CSS, JavaScript, React, PHP, MySQL, and Laravel. Each demo includes detailed explanations, offering insights into the development process and serving as a valuable resource for honing web development skills.
+This repository contains my personal practice projects for web development, featuring demo websites built using HTML, CSS, and JavaScript. Each demo includes detailed explanations, offering insights into the development process and serving as a valuable resource for honing web development skills.
 ## Why Is It So Simple?
 
 The simplicity of this project is intentional. By keeping it basic, you can easily delete an element or change it to see how it affects the layout and design. Additionally, you'll find some scripts that are commented out. These scripts represent alternative methods for achieving the same results. Try uncommenting them to see the difference for yourself.
@@ -14,3 +14,6 @@ The simplicity of this project is intentional. By keeping it basic, you can easi
 ## My Learning Approach
 
 This is how I learn—by experimenting and observing the effects of small changes. I hope this project helps you learn in the same way. Dive in, play around, and see how simple changes can make a big difference in your understanding.
+
+## Effective use of AI:
+If you encounter a line of code you don't understand, input it into an AI tool and ask it to break down and explain each part in detail.
